@@ -1,0 +1,337 @@
+/**
+ * @name Nori
+ * @author Knaught+TheSmudget
+ * @version 0.5
+ * @description 🎉🐾 Pretty theme! 🐾🎉 **BETA**
+ * @source https://github.com/Kn4ughty/Nori
+ **/
+
+@import url(https://raw.githubusercontent.com/Kn4ughty/Nori/main/import.theme.css);
+/*
+::::    :::  ::::::::  :::::::::  ::::::::::: 
+:+:+:   :+: :+:    :+: :+:    :+:     :+:     
+:+:+:+  +:+ +:+    +:+ +:+    +:+     +:+     
++#+ +:+ +#+ +#+    +:+ +#++:++#:      +#+     
++#+  +#+#+# +#+    +#+ +#+    +#+     +#+
+#+#   #+#+# #+#    #+# #+#    #+#     #+#     
+###    ####  ########  ###    ### ###########
+
+    ██████╗░███████╗████████╗░█████╗░
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗
+    ██████╦╝█████╗░░░░░██║░░░███████║
+    ██╔══██╗██╔══╝░░░░░██║░░░██╔══██║
+    ██████╦╝███████╗░░░██║░░░██║░░██║
+    ╚═════╝░╚══════╝░░░╚═╝░░░╚═╝░░╚═╝
+
+    This software is still in beta, 
+    make sure to report any bugs or
+           make suggestions!
+
+
+https://fsymbols.com/generators/carty/
+
+        ▀█▀ █▀█ █▀▄ █▀█
+         █  █▄█ █▄▀ █▄█
+
+- [ ] Selected element text colour contrast
+- [x] Change discord blurple to our color
+- [x] Glow and margin on left panel with channel selection
+- [x] Add trans flag selection colours
+- [ ] Glow and float entire thingymajig (what is a thingymajig?)
+
+https://patorjk.com/software/taag/#p=testall&f=Blocks&t=ToDo
+tmplr
+
+*/
+
+
+:root {
+
+    /* Common user settings */
+    --accent-color: var(--mauve) !important;
+    --selected-color: var(--accent-color);
+    --hover-color: var(--surface0);
+    --mentioned-color: var(--surface0);
+    
+    --corner-radius: 1rem;
+    --glow-radius: 1rem;
+    --float-margin: calc(var(--glow-radius) + 0.1rem);
+
+    --alert: rgb(255, 0, 0);
+
+
+    /* All the colors */
+    --rosewater: rgb(245, 224, 220);
+	--flamingo: rgb(242, 205, 205);
+	--pink: rgb(245, 194, 231);
+	--mauve: rgb(203, 166, 247);
+	--red: rgb(243, 139, 168);
+	--maroon: rgb(235, 160, 172);
+	--peach: rgb(250, 179, 135);
+	--yellow: rgb(249, 226, 175);
+	--green: rgb(166, 227, 161);
+	--teal: rgb(148, 226, 213);
+	--sky: rgb(137, 220, 235);
+	--sapphire: rgb(116, 199, 236);
+	--blue: rgb(137, 180, 250);
+	--lavender: rgb(180, 190, 254);
+	--text: rgb(205, 214, 244);
+	--subtext1: rgb(186, 194, 222);
+	--subtext0: rgb(166, 173, 200);
+	--overlay2: rgb(147, 153, 178);
+	--overlay1: rgb(127, 132, 156);
+	--overlay0: rgb(108, 112, 134);
+	--surface2: rgb(88, 91, 112);
+	--surface1: rgb(69, 71, 90);
+	--surface0: rgb(49, 50, 68);
+	--base: rgb(30, 30, 46);
+	--mantle: rgb(24, 24, 37);
+	--crust: rgb(17, 17, 27);
+
+    /* These are machiatoto greys */
+    --gray0:            rgb(109, 108, 117);
+    --gray1:            rgb(143, 134, 150);
+    --gray2:            rgb(186, 172, 191);
+    --black3:           rgb(54,   58,  79);
+    --black4:           rgb(91,   96, 120);
+
+    /* Trans flag gradient for things.  */
+    --trans-flag: linear-gradient(270deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFFFFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
+
+
+    /* Marked for removal, old code from glow cat that doesnt apply */
+
+    /*
+    --window-margin: 7px;
+
+    --window-box-shadow: 0px 0px 15px 5px rgba(128, 132, 255,0.6);
+    --window-blur: 5px;
+    --window-border-radius: 10px;
+    --sidebar-colour: rgb(36, 36, 36);
+
+
+    --avatar-area-box-shadow: 0px 0px 25px 7px rgba(245, 189, 230,0.6);
+    --avatar-area-background-colour: var(--black0);
+    --avatar-area-top-right-radius: 20px;
+
+    --server-selector-gradient-top: var(--black1);
+    --server-selector-gradient-bottom: var(--avatar-area-background-colour);
+    */
+
+
+    /* All the main coloring variables */
+
+    --header-primary: var(--white) !important;
+    --header-secondary: var(--rosewater) !important;
+
+    --background-primary: var(--crust) !important;
+
+    /* Unknown */
+    --background-primary-alt: var(--alert) !important;
+
+    /* Friend bar */
+    --background-secondary: var(--crust) !important;
+
+    /* User modal at bottom */
+    --background-secondary-alt: var(--base) !important;
+
+    /* Server Bar, search, window title */
+    --background-tertiary: var(--base) !important;
+
+    /* Unknown */
+    --background-floating: var(--pink) !important;
+    
+    /* Message that mentions you */
+    --background-mentioned: var(--mentioned-color) !important;
+    --background-mentioned-hover: var(--pink-o20) !important;
+
+    /* nitro colour free trial, vc active in server */
+    --background-accent: var(--blue) !important;
+    
+    /* Selected DM, channel profile etc */
+    --background-modifier-selected: var(--selected-color) !important;
+    /* Colour when hovering over selectable item */
+    --background-modifier-hover: var(--hover-color) !important;
+
+    /* list seperator */
+    --background-modifier-accent: var(--surface0) !important;
+
+    /* Self explainatory */
+    --text-normal: var(--white) !important;
+    --text-muted: var(--gray0) !important;
+    --text-link: var(--sky) !important;
+
+    /* Channel Name text color */
+    --channels-default: var(--) !important;
+
+    /* Send Message text input box */
+    --channeltextarea-background: var(--base) !important;
+
+    /* unknown */
+    --activity-card-background: var(--alert) !important;
+
+    /* i dont wanna work it out */
+    --interactive-normal: var(--white) !important;
+    --interactive-muted: var(--gray0) !important;
+    --interactive-hover: var(--gray2) !important;
+    --interactive-active: var(--rosewater) !important;
+
+    /* Scrollbar in member and channel list */
+    --scrollbar-thin-thumb: var(--mauve) !important;
+    --scrollbar-thin-track: transparent !important;
+
+    /* Scrollbar bar color */
+    --scrollbar-auto-thumb: var(--mauve) !important;
+
+    /* Full area scrollbar can move */
+    --scrollbar-auto-track: transparent !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--black3) !important;
+    --scrollbar-auto-scrollbar-color-track: var(--black3) !important;
+    --deprecated-store-bg: var(--black0) !important;
+
+    /* Unknown */
+    --__header-bar-background: var(--alert) !important;
+
+    --brand-experiment: var(--accent-color) !important;
+}
+
+/* top bar in freinds section */
+.theme-dark .themed_b152d4 {
+    background-color: var(--Crust);
+}
+
+/* server channel list float thing wha wah */
+#channels {
+    margin: var(--float-margin);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color); 
+    border-radius: var(--corner-radius);
+}
+
+/* Dm section DM list float scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0 */
+.scroller__4b984 {
+    margin: var(--float-margin);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color);
+    border-radius: var(--corner-radius);
+}
+
+/* Message send box */
+.themedBackground__6b1b6  {
+    border-radius: var(--corner-radius);
+    border: 0.2rem solid var(--surface0);
+    box-shadow: 0rem 0rem 0.5rem 0rem var(--accent-color) !important; ;
+}
+
+/* User area, it has an aria-lable but that seems complicated to use*/
+.container_ca50b9 {
+    border-radius: 0px var(--corner-radius) 0px 0px !important;
+    /* There is like a 1px gap at the bottom which this fills */
+    box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
+}
+/* Second part of the user area, this is important dont delete it */
+.panels__58331 {
+    background-color: transparent !important;
+}
+/* Game activity */
+.panel_bd8c76 {
+    border-radius: 0px var(--corner-radius) 0px 0px !important;
+    /* There is like a 1px gap at the bottom which this fills */
+    box-shadow: 0rem 1rem 0rem 0rem var(--background-secondary-alt)
+}
+
+
+/* Ashlet code */
+/* this is the part that i did :) - Smudge 
+
+
+I stole some flag code from http://www.barchok.com/flags.html then spun it 90deg. Im so coolio!
+Also I added in the colour change thing in the second line.*/
+
+#my-account-tab .colorBrand_b2253e:hover {
+    /* replace linera-gradient with var(--trans-flag) */
+    background: var(--trans-flag);
+    color: var(--mantle);
+}
+
+
+/* silly little server member box floating thing
+You may notice it uses the same code stolen from my good friend Knaughty earlier in this document.
+You would be right.*/
+.members__9f47b {
+    margin: var(--float-margin);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color); 
+    border-radius: var(--corner-radius);
+    width: 85%;
+}
+
+/* This is my insatiable ranting about the disgusting little line on the friends right thingy on the home screen i couldnt figure out how to fix */
+.nowPlayingColumn_f5023f {
+    margin: var(--float-margin);
+    box-shadow:0rem 0rem var(--glow-radius) 0rem var(--accent-color);
+    border-radius: var(--corner-radius);
+} 
+.container__0a6a9 {
+    border-radius: var(--corner-radius);
+    margin-left:0px;
+    border-left:0px;
+}
+.scroller__00e7e {
+    border-left:0px;
+}
+
+/* Me remembering the user infobox and wanting to make it nor/mal ;) */
+/* The first three is me trying to figure out how to make it float and glow and all that */
+.userPanelOuter__880e5 {
+    margin: var(--float-margin);
+    border-radius: var(--corner-radius);
+    width: 90%;
+    height: 96%;
+}
+.none__51a8f {
+    border-radius: var(--corner-radius);
+    box-shadow: 0rem 0rem var(--glow-radius) 0rem var(--accent-color);
+}
+.userPanelInner_eddf4c {
+    border-radius: var(--corner-radius);
+    background: var(--mantle);
+    margin-bottom: -1px;
+}
+
+/*Small fix cause the server bar kept glowing*/
+.scroller__3d071 {
+    border-radius:0%;
+}
+
+/*Removal of the nitro promotion badge on the home screens*/
+.premiumTrialBadge_f2180d {
+    width:27% ;
+    height:10% ;
+    overflow: hidden;
+    background-color: var(--mauve)
+} 
+
+/*Server Icon Recolouring*/
+.circleIconButton_d8df29 {
+    color: var(--mauve);
+    background-color: var(--mantle);
+}
+.circleIconButton_d8df29:hover {
+    color: var(--mantle);
+    background-color: var(--mauve);
+}
+
+/* Me code */
+
+
+/* Fixes small scrollbar going out of corner radius */
+/* This applies to all scrollbars so some filtering is needed but should work */
+::-webkit-scrollbar-track {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Infobox stuff */
+#account {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}

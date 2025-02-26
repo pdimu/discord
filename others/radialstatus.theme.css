@@ -1,0 +1,21 @@
+/**
+ * @name .radialstatus
+ * @version 1.0.0.Dimu
+ * @description Wraps the status into the profile photo
+ * @author Gibbu
+ * @source https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css
+*/
+
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --rs-online-color: #A6DA95;
+  --rs-idle-color: #EED49F;
+  --rs-dnd-color: #ED8796;
+  --rs-offline-color: #7C8187;
+  --rs-streaming-color: #7C66A0;
+}
+
+/* Any custom CSS below here */
+
+/*  --rs-phone-visible: block; */

@@ -1,0 +1,33 @@
+
+/**
+ * @name .Remove Buttons
+ * @version 1.1.1
+ * @author cheesits456
+ * @authorId 306018440639152128
+ * @description Remove the nitro gift, GIF picker, and sticker picker buttons from the message box. Also remove the sticker suggestion popup
+ * @source https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e
+ * @invite 7QH4YeD
+ * @donate https://donate.haileybot.com
+ * @website https://cheesits456.dev
+*/
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+/* Hide annoying sticker popup window that appears when you type */
+.channelTextArea-1FufC0 > .container-1ZA19X {
+    display: none;
+}
+/* Hide Activity button */
+.channelAppLauncher_df39bd {
+    display: none;
+}

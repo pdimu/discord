@@ -1,0 +1,551 @@
+/**
+ * @name .Discord Improvements (css snippets)
+ * @version 1.0.0
+ * @description css snippets with improvements from the BD server (#css-snippets)
+ * @author Dimu + many others
+ */
+
+/*
+/* @import url("https://smolalli.github.io/Themes/Snippets/removechatbuttons.css"); */
+@import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
+/* @import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css); */
+/* @import url("https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css"); */
+/* @import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/ChannelsBG.css); */
+/* @import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/MemberListBG.css); */
+/* @import url("https://joshuah345.github.io/Discord-Stuff/Themes/Snippets/Haircut.css"); */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
+/* @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css"); */
+@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+/* @import url("https://syndishanx.github.io/Discord-Dark/Imports/ProfileBannerSkins.css"); */
+/* @import url("https://syndishanx.github.io/Discord-Dark/Imports/BDAddonMini.css"); */
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/BearableInbox.css");
+@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+/* @import url(//dablulite.github.io/css-snippets/PrettyFolderIcons/import.css); */
+/* @import url(//dablulite.github.io/css-snippets/SuperUserArea/import.css); */
+@import url(//dablulite.github.io/css-snippets/DeclutterBar/import.css);
+/* @import url(//dablulite.github.io/css-snippets/HorizontalServerList/import.css); */
+/* @import url(//dablulite.github.io/css-snippets/ServersList/import.css); */
+/* @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css); */
+/* @import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css); */
+/* @import url(//dablulite.github.io/css-snippets/BetterModals/import.css); */
+/* @import url('https://discordstyles.github.io/Fluent/Icons.css'); */
+/* @import url('https://discordstyles.github.io/HorizontalServerList/resizablelist.css'); */
+/* @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css); */
+/* @import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css"); */
+/* @import url(https://maendisease.github.io/BetterDiscordStuff/css/FloatingModal.css); */
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+/* @import url(//dablulite.github.io/css-snippets/BetterFloatingEditor/import.css); */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
+/* @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css"); */
+/* @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css); */
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
+*/
+
+/*
+last snippet: https://discord.com/channels/86004744966914048/836694789898109009/895941324874854460
+search: in:css-snippets fix the file icon shrinking with long file names
+*/
+
+/* Centered Voice Controls */
+.bottomControls_dd069c > .flex_dc333f:is(:first-child, :last-child) {
+  flex: 1 1 50% !important;
+}
+.bottomControls_dd069c > .flex_dc333f:nth-child(2) {
+  flex: 0 1 auto !important;
+}
+
+/* User Area Icon Recolor */
+.panels_a4d4d9 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {
+  fill: white;
+}
+.lottieIcon_f73ef7 > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
+  stroke: white;
+}
+
+/* @ before username in bio */
+/*
+.userPopoutInner_c69a7b .userTagUsername_c32acf:before,
+.fullSizeOuter_c69a7b .userTagUsername_c32acf:before {
+  color: var(--text-muted);
+  content: "@";
+}
+*/
+
+/* BOT instead of APP */
+/*
+.botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56 {
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+.botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56:before {
+    content: "Bot";
+    font-size: 0.625rem;
+    line-height: 1.3;
+}
+*/
+
+/* Hide Threads on channel */
+/*
+.containerDefault_ae2ea4:hover + .container__342a0, .container__342a0:hover {
+  max-height: 1000px; /* Make the threads Slide down */
+  transition: max-height 1s ease; }
+
+.container__342a0 {
+  max-height: 0; /* Initially hide the threads by setting their max-height to 0 */
+  overflow: hidden; 
+  transition: max-height 0.25s ease; }
+*/
+
+/* No Super Reaction animations */
+.hideEmoji__76c97 {
+  opacity: 1;
+}
+.effect__50f2a svg,
+.effect__50f2a {
+  transform: none !important;
+}
+.effect__50f2a g {
+  clip-path: none !important;
+  transform: none;
+  opacity: 0;
+}
+.reaction__4a43f.shakeReaction_e7ae8d {
+  animation: none !important;
+}
+
+/* Fix Mosaic Zoom */
+[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+
+/* Edited Message Timestamp */
+/*
+[class*="timestamp_"]:not([class*="timestampInline_"],
+[class*="timestampVisibleOnHover_"]) time::after {
+    content: ' (' attr(aria-label) ')';
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: lowercase;
+}
+
+[class*="edited"]:not(.message-translate-indicator) {
+    display: none;
+}
+*/
+
+/* Hide the numbers on 1 reaction */
+.reaction_fef95b:has(.reactionInner__4135b[aria-label*="1 reaction"], .reactionInner__4135b[aria-label*="1 super reaction"]) .reactionCount_b49901 {display: none;}
+
+/* No Nitro */
+/*
+.channel_c21703:has([data-list-item-id$="___nitro"]), .channel_c21703:has([data-list-item-id$="___shop"]), /*Shop and nitro private channels*/
+.containerWrapper-1kh54c, /*Userpopout nitro upsell*/
+.premiumTab__57bdc, /*Nitro Settings Tab*/
+.buttons_ce5b56 > button[aria-haspopup="dialog"], /*Gift Button*/
+.premiumFeatureBorder__9bbb3, /*Premium settings feature upsell cards.*/
+.container_d6bff4:has(.ctaButton__7d20c) /*Shop advertisement*/ {
+    display: none;
+}
+#private-channels a[href="/store"] {
+    display: none;
+}
+.premiumTrialBadge-pEqntF {
+    display: none;
+}
+.containerWrapper-1kh54c{display:none}
+.privateChannels-oVe7HL [href="/store"] + svg,
+.item-3XjbnG [class*="Promo"],
+.premiumLabel-3HPvdB svg,
+.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
+    display: none;
+}
+.premiumLabel-3HPvdB {
+    color: var(--color-muted);
+}
+*/
+
+/* Role color background in memberlist */
+/*
+.member_aa4760 span.username_d272d6::after {
+    content: "";
+    background: currentColor;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.11;
+    left: 0;
+    top: 0;
+}
+*/
+
+/* Icon instead (edited) */
+.edited_b20dd9 {color: rgba(0,0,0,0)} /*Render the original edited text invisible*/
+.edited_b20dd9::before {
+        content: "(✎)"; /*Put the edited icon before the original edited text.*/
+        color: var(--text-muted); /*Give it the same muted color at the edited text.*/
+        font-size: 0.625rem; 
+        font-weight: 400; 
+        line-height: 1;
+}
+
+/* Remove GIF text padding under images */
+.altText__6dd8b {
+  margin: .25rem 0 -0.15rem;
+  line-height: 17px;
+}
+
+/* Fix Small Image Group Previews (>=32px) */
+/*
+.lazyImg-ewiNCh, .originalLink-Azwuo9 {
+  min-width: auto !important;
+}
+.mediaAttachmentsContainer-1WGRWy > div {
+  width: fit-content;
+}
+.oneByTwoSoloItem-MZsImq {
+  flex: 0.5;
+}
+.twoByOneGrid-3RBEQO {
+  flex-direction: row;
+}
+.oneByTwoGrid-25mx0i {
+  align-items: flex-start;
+}
+.lazyImgContainer-3k3gRy, .mediaAttachmentsContainer-1WGRWy {
+  border-radius: 0 !important;
+}
+.hoverButtonGroup-2yZIzC {
+  top: 0;
+  right: 0;
+}
+.hoverButton-36QWJk {
+  border-radius: 5px;
+}
+*/
+
+/* Visible VC Text Button */
+/*
+#app-mount .openChatIconItem-2kj5qO {
+    display: flex;
+    order: 1;
+    justify-content: center;
+    border-radius: 4px;
+    width: 42px;
+    padding-right: 0;
+}
+
+.openChatIconItem-2kj5qO:hover { background-color: var(--background-modifier-selected); }
+.openChatIconItem-2kj5qO .actionIcon-2sw4Sl { color: var(--channels-default); }
+*/
+
+/* Floating Folder */
+/*
+.wrapper-38slSD:active {
+    -webkit-transform: unset;
+    transform: none;
+}
+
+
+[id^="folder-items-"] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    overflow-y: auto;
+    max-height: calc(100vh - 72px);
+    margin: auto auto auto calc(72px + 8px);
+    padding-top: 8px;
+    border-radius: 8px;
+    background: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+}
+
+[id^="folder-items-"]::-webkit-scrollbar {
+    display: none;
+}
+
+.folderIconWrapper-1oRIZr {
+    transform: rotate(-90deg);
+}
+
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
+.expandedFolderIconWrapper-3RwQpD svg {
+    transform: rotate(90deg);
+}
+*/
+
+/* BD settings first */
+.side-1lrxIh>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,.bd-customcss-tab)+.separator-2wx7h6){
+  order: -1;
+}
+
+/* Roles Background */
+/*
+.role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+    border: 0;
+
+    --transparency: .4;
+    border-radius: 5px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+    position: static;
+}
+.role-2TIOKu .roleCircle-3TFUOr:after {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: var(--transparency);
+}
+*/
+
+/* Connection Issue Let Me Be */
+.container-2RRFHK {
+    background: transparent;
+    pointer-events: none;
+}
+.container-2RRFHK .anchor-1MIwyf { pointer-events: auto; }
+.container-2RRFHK .content-3AIQZv .text-2bYgPB {
+    display:none;
+}
+.container-2RRFHK .ready-3BZNWT {
+    position: absolute;
+    bottom: 44px;
+    right: 244px;
+    z-index: 1;
+}
+
+.container-2RRFHK img, .container-2RRFHK video {
+    width: 32px;
+    height: 32px;
+}
+.container-2RRFHK .problems-CvGwpb {
+    padding: 8px 16px;
+    bottom: 18px;
+    left: unset;
+    right: 18px;
+    width:fit-content;
+    height:fit-content;
+    background-color: var(--background-floating);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
+    box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
+
+/* Rounded Context Menu */
+/*
+.menu_dc52c6, .colorDefault__0b482 { 
+    border-radius: 15px; 
+}
+*/
+
+/* Emoji Auto-Fill Animation */
+/*
+.base__76a71 {
+    transition: all 0.5s;
+}
+.base__76a71:hover {
+    transition: all 0s;
+    transform: scale(1.02);
+}
+*/
+
+/* Messages Slide In Chat */
+/*
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.message__80c10 {
+  animation: slide-up 0.4s ease;
+}
+*/
+
+/* Better Jump To Present Button */
+/*
+[class*="jumpToPresentBar"] {
+  display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+  display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: #5865F2;
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size 0.2s 0.1s, color 0.2s, padding 0.4s 0.1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #FFFFFF;
+  transition: margin 0.6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: font-size 0.2s, color 0.2s 0.1s, padding 0.4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+*/
+
+/* Widescreen Settings */
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
+    justify-content: unset;
+    flex: unset
+}
+.contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {
+    max-width: unset;
+}
+.accountProfileCard-lbN7n- {
+    max-width: 750px;
+}
+.notificationSettings-1U0JsJ {
+    max-width: 45%;
+}
+
+/* Removes Chatbox from channel that don't allow you to communicate */
+/*
+.channelTextAreaDisabled-1p2fQv, .channelTextAreaDisabled-1p2fQv > .scrollableContainer-15eg7h{
+  animation: nochat .000001ms forwards;
+}
+@keyframes nochat{
+  to{height: 0}
+}
+*/
+
+/* Removes Follow banner on bottom of channels */
+.wrapper-2SplAX {display: none;}
+
+/* Blur Spoiler text */
+.spoilerText-27bIiA,
+.spoilerText-27bIiA.hidden-3B-Rum {
+    background-color: transparent !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum > .inlineContent-2YnoDy {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
+}
+
+/* No file icon shrink when long filename */
+.audioMetadata-3zOuGv::before {
+    min-width: 24px;
+}
+
+:root {
+    /* Chat Area */
+    --gift: none;
+    --gif: none;
+    --sticker: none;
+    --activity: none;
+
+    /* Channels Sidebar */
+    --server-shop: none;
+    --boost: none; /* Boost Bar */
+
+    /* DM Area */
+    --friends: none;
+    --store: none; /* Nitro store */
+    --shop: none;
+    
+    /* Channels Background */
+/*
+    --channel-border-radius:16px; /* Rounding */
+    --channel-background: var(--background-tertiary); /* channel color */
+    --channel-title-background: var(--background-tertiary); /* title color */
+*/
+
+    /* Member list Background */
+/*
+    --ML-border-radius:16px; /* Rounding */
+    --ML-member-background: var(--background-tertiary); /* member color */
+    --ML-role-background: var(--background-tertiary); /* role color */
+*/
+
+    /* Remove Help button */
+    --help-button-display: none ;
+
+    /* Server labels */
+/*
+    --guild-list-width: 290px;
+    --guild-list-height: 48px;
+    --guild-item-radius: 50px;
+    --guild-item-spacing: 8px;
+*/
+
+    /* Resizable Server List */
+/*
+    --server-size: 40px; /* Size of the server icons */
+*/
+
+    /* Border on Roles */
+/*
+    --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
+
+    --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
+*/
+
+    /* Chat Bubbles */
+/*
+    --chat-bubble: 1;
+
+    --chat-bubble-background-color: var(--background-secondary);
+    --chat-bubble-border-color: var(--background-secondary-alt);
+    --chat-bubble-code-background-color: var(--background-secondary-alt);
+
+    --chat-bubble-max-width: 90%;
+    --chat-bubble-border-radius: 8px;
+
+    --chat-bubble-box-shadow-h-offset: 0;
+    --chat-bubble-box-shadow-v-offset: 4px;
+    --chat-bubble-box-shadow-blur: 4px;
+    
+    --chat-bubble-box-shadow-color-h: 0;
+    --chat-bubble-box-shadow-color-s: 0%;
+    --chat-bubble-box-shadow-color-l: 0%;
+    --chat-bubble-box-shadow-color-a: 0.16;
+*/
+}
