@@ -1,0 +1,21 @@
+/**
+* @name Mycord
+* @author Dimu
+* @description all my themes are now in the "cloud"
+* @version 0.1
+*/
+
+/* Discolored */
+@import url("https://raw.githubusercontent.com/pdimu/discord/refs/heads/main/daily%20use/.discolored.theme.css");
+
+/* Discord Improvements */
+@import url("https://raw.githubusercontent.com/pdimu/discord/refs/heads/main/daily%20use/.discordimprovements.theme.css");
+
+/* Google Android Emojis */
+@import url("https://raw.githubusercontent.com/pdimu/discord/refs/heads/main/daily%20use/.googleandroidemojis.theme.css");
+
+/* Material Discord */
+@import url("https://raw.githubusercontent.com/pdimu/discord/refs/heads/main/daily%20use/.materialdiscord.theme.css");
+
+/* Remove Buttons */
+@import url("https://raw.githubusercontent.com/pdimu/discord/refs/heads/main/daily%20use/.removebuttons.theme.css");
