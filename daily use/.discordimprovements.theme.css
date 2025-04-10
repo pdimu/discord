@@ -5,42 +5,40 @@
  * @author Dimu + many others
  */
 
-/*
-/* @import url("https://smolalli.github.io/Themes/Snippets/removechatbuttons.css"); */
+@import url("https://smolalli.github.io/Themes/Snippets/removechatbuttons.css");
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
-/* @import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css); */
-/* @import url("https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css"); */
-/* @import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/ChannelsBG.css); */
-/* @import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/MemberListBG.css); */
-/* @import url("https://joshuah345.github.io/Discord-Stuff/Themes/Snippets/Haircut.css"); */
+@import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
+@import url("https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css");
+@import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/ChannelsBG.css);
+@import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/MemberListBG.css);
+@import url("https://joshuah345.github.io/Discord-Stuff/Themes/Snippets/Haircut.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
-/* @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css"); */
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
 @import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
-/* @import url("https://syndishanx.github.io/Discord-Dark/Imports/ProfileBannerSkins.css"); */
-/* @import url("https://syndishanx.github.io/Discord-Dark/Imports/BDAddonMini.css"); */
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/ProfileBannerSkins.css");
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/BDAddonMini.css");
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/BearableInbox.css");
 @import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
-/* @import url(//dablulite.github.io/css-snippets/PrettyFolderIcons/import.css); */
-/* @import url(//dablulite.github.io/css-snippets/SuperUserArea/import.css); */
+@import url(//dablulite.github.io/css-snippets/PrettyFolderIcons/import.css);
+@import url(//dablulite.github.io/css-snippets/SuperUserArea/import.css);
 @import url(//dablulite.github.io/css-snippets/DeclutterBar/import.css);
-/* @import url(//dablulite.github.io/css-snippets/HorizontalServerList/import.css); */
-/* @import url(//dablulite.github.io/css-snippets/ServersList/import.css); */
-/* @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css); */
-/* @import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css); */
-/* @import url(//dablulite.github.io/css-snippets/BetterModals/import.css); */
-/* @import url('https://discordstyles.github.io/Fluent/Icons.css'); */
-/* @import url('https://discordstyles.github.io/HorizontalServerList/resizablelist.css'); */
-/* @import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css); */
-/* @import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css"); */
-/* @import url(https://maendisease.github.io/BetterDiscordStuff/css/FloatingModal.css); */
+@import url(//dablulite.github.io/css-snippets/HorizontalServerList/import.css);
+@import url(//dablulite.github.io/css-snippets/ServersList/import.css);
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterModals/import.css);
+@import url('https://discordstyles.github.io/Fluent/Icons.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/resizablelist.css');
+@import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
+@import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/FloatingModal.css);
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
-/* @import url(//dablulite.github.io/css-snippets/BetterFloatingEditor/import.css); */
+@import url(//dablulite.github.io/css-snippets/BetterFloatingEditor/import.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
-/* @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css"); */
-/* @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css); */
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css);
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
-*/
 
 /*
 last snippet: https://discord.com/channels/86004744966914048/836694789898109009/895941324874854460
@@ -64,16 +62,13 @@ search: in:css-snippets fix the file icon shrinking with long file names
 }
 
 /* @ before username in bio */
-/*
 .userPopoutInner_c69a7b .userTagUsername_c32acf:before,
 .fullSizeOuter_c69a7b .userTagUsername_c32acf:before {
   color: var(--text-muted);
   content: "@";
 }
-*/
 
 /* BOT instead of APP */
-/*
 .botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56 {
     font-size: 0 !important;
     line-height: 0 !important;
@@ -83,10 +78,8 @@ search: in:css-snippets fix the file icon shrinking with long file names
     font-size: 0.625rem;
     line-height: 1.3;
 }
-*/
 
 /* Hide Threads on channel */
-/*
 .containerDefault_ae2ea4:hover + .container__342a0, .container__342a0:hover {
   max-height: 1000px; /* Make the threads Slide down */
   transition: max-height 1s ease; }
@@ -95,7 +88,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
   max-height: 0; /* Initially hide the threads by setting their max-height to 0 */
   overflow: hidden; 
   transition: max-height 0.25s ease; }
-*/
 
 /* No Super Reaction animations */
 .hideEmoji__76c97 {
@@ -118,7 +110,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
 
 /* Edited Message Timestamp */
-/*
 [class*="timestamp_"]:not([class*="timestampInline_"],
 [class*="timestampVisibleOnHover_"]) time::after {
     content: ' (' attr(aria-label) ')';
@@ -136,13 +127,11 @@ search: in:css-snippets fix the file icon shrinking with long file names
 [class*="edited"]:not(.message-translate-indicator) {
     display: none;
 }
-*/
 
 /* Hide the numbers on 1 reaction */
 .reaction_fef95b:has(.reactionInner__4135b[aria-label*="1 reaction"], .reactionInner__4135b[aria-label*="1 super reaction"]) .reactionCount_b49901 {display: none;}
 
 /* No Nitro */
-/*
 .channel_c21703:has([data-list-item-id$="___nitro"]), .channel_c21703:has([data-list-item-id$="___shop"]), /*Shop and nitro private channels*/
 .containerWrapper-1kh54c, /*Userpopout nitro upsell*/
 .premiumTab__57bdc, /*Nitro Settings Tab*/
@@ -167,10 +156,8 @@ search: in:css-snippets fix the file icon shrinking with long file names
 .premiumLabel-3HPvdB {
     color: var(--color-muted);
 }
-*/
 
 /* Role color background in memberlist */
-/*
 .member_aa4760 span.username_d272d6::after {
     content: "";
     background: currentColor;
@@ -181,7 +168,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
     left: 0;
     top: 0;
 }
-*/
 
 /* Icon instead (edited) */
 .edited_b20dd9 {color: rgba(0,0,0,0)} /*Render the original edited text invisible*/
@@ -200,7 +186,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
 }
 
 /* Fix Small Image Group Previews (>=32px) */
-/*
 .lazyImg-ewiNCh, .originalLink-Azwuo9 {
   min-width: auto !important;
 }
@@ -226,10 +211,8 @@ search: in:css-snippets fix the file icon shrinking with long file names
 .hoverButton-36QWJk {
   border-radius: 5px;
 }
-*/
 
 /* Visible VC Text Button */
-/*
 #app-mount .openChatIconItem-2kj5qO {
     display: flex;
     order: 1;
@@ -241,10 +224,8 @@ search: in:css-snippets fix the file icon shrinking with long file names
 
 .openChatIconItem-2kj5qO:hover { background-color: var(--background-modifier-selected); }
 .openChatIconItem-2kj5qO .actionIcon-2sw4Sl { color: var(--channels-default); }
-*/
 
 /* Floating Folder */
-/*
 .wrapper-38slSD:active {
     -webkit-transform: unset;
     transform: none;
@@ -278,7 +259,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
 .expandedFolderIconWrapper-3RwQpD svg {
     transform: rotate(90deg);
 }
-*/
 
 /* BD settings first */
 .side-1lrxIh>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,.bd-customcss-tab)+.separator-2wx7h6){
@@ -286,7 +266,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
 }
 
 /* Roles Background */
-/*
 .role-2TIOKu {
     transform: translate(0);
     overflow: hidden;
@@ -314,7 +293,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
     background: inherit;
     opacity: var(--transparency);
 }
-*/
 
 /* Connection Issue Let Me Be */
 .container-2RRFHK {
@@ -350,14 +328,11 @@ search: in:css-snippets fix the file icon shrinking with long file names
 }
 
 /* Rounded Context Menu */
-/*
 .menu_dc52c6, .colorDefault__0b482 { 
     border-radius: 15px; 
 }
-*/
 
 /* Emoji Auto-Fill Animation */
-/*
 .base__76a71 {
     transition: all 0.5s;
 }
@@ -365,10 +340,8 @@ search: in:css-snippets fix the file icon shrinking with long file names
     transition: all 0s;
     transform: scale(1.02);
 }
-*/
 
 /* Messages Slide In Chat */
-/*
 @keyframes slide-up {
   0% {
     opacity: 0;
@@ -382,10 +355,8 @@ search: in:css-snippets fix the file icon shrinking with long file names
 .message__80c10 {
   animation: slide-up 0.4s ease;
 }
-*/
 
 /* Better Jump To Present Button */
-/*
 [class*="jumpToPresentBar"] {
   display: contents;
 }
@@ -428,7 +399,6 @@ search: in:css-snippets fix the file icon shrinking with long file names
   margin-right: 2px;
   margin-left: -6px;
 }
-*/
 
 /* Widescreen Settings */
 .sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
@@ -446,14 +416,12 @@ search: in:css-snippets fix the file icon shrinking with long file names
 }
 
 /* Removes Chatbox from channel that don't allow you to communicate */
-/*
 .channelTextAreaDisabled-1p2fQv, .channelTextAreaDisabled-1p2fQv > .scrollableContainer-15eg7h{
   animation: nochat .000001ms forwards;
 }
 @keyframes nochat{
   to{height: 0}
 }
-*/
 
 /* Removes Follow banner on bottom of channels */
 .wrapper-2SplAX {display: none;}
@@ -492,44 +460,33 @@ search: in:css-snippets fix the file icon shrinking with long file names
     --shop: none;
     
     /* Channels Background */
-/*
     --channel-border-radius:16px; /* Rounding */
     --channel-background: var(--background-tertiary); /* channel color */
     --channel-title-background: var(--background-tertiary); /* title color */
-*/
 
     /* Member list Background */
-/*
     --ML-border-radius:16px; /* Rounding */
     --ML-member-background: var(--background-tertiary); /* member color */
     --ML-role-background: var(--background-tertiary); /* role color */
-*/
 
     /* Remove Help button */
     --help-button-display: none ;
 
     /* Server labels */
-/*
     --guild-list-width: 290px;
     --guild-list-height: 48px;
     --guild-item-radius: 50px;
     --guild-item-spacing: 8px;
-*/
 
     /* Resizable Server List */
-/*
     --server-size: 40px; /* Size of the server icons */
-*/
 
     /* Border on Roles */
-/*
     --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
 
     --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
-*/
 
     /* Chat Bubbles */
-/*
     --chat-bubble: 1;
 
     --chat-bubble-background-color: var(--background-secondary);
@@ -547,5 +504,51 @@ search: in:css-snippets fix the file icon shrinking with long file names
     --chat-bubble-box-shadow-color-s: 0%;
     --chat-bubble-box-shadow-color-l: 0%;
     --chat-bubble-box-shadow-color-a: 0.16;
-*/
+
+/* Restore Chatbar Button Sizes */
+  .buttons__74017 {
+  scale: 1.2;
+  translate: -37px;
+  padding-left: 40px;
+}
+.attachButton__0923f  {
+  scale: 1.2;
+  translate: 5px;
+}
+
+/* Make the title bar make more sense */
+  .title_c38106 {
+  justify-content: left;
+  .title__85643 {
+    .guildIcon__85643  {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M19.73 4.87a18.2 18.2 0 0 0-4.6-1.44c-.21.4-.4.8-.58 1.21-1.69-.25-3.4-.25-5.1 0-.18-.41-.37-.82-.59-1.2-1.6.27-3.14.75-4.6 1.43A19.04 19.04 0 0 0 .96 17.7a18.43 18.43 0 0 0 5.63 2.87c.46-.62.86-1.28 1.2-1.98-.65-.25-1.29-.55-1.9-.92.17-.12.32-.24.47-.37 3.58 1.7 7.7 1.7 11.28 0l.46.37c-.6.36-1.25.67-1.9.92.35.7.75 1.35 1.2 1.98 2.03-.63 3.94-1.6 5.64-2.87.47-4.87-.78-9.09-3.3-12.83ZM8.3 15.12c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.89 2.27-2 2.27Zm7.4 0c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.88 2.27-2 2.27Z'/%3E%3C/svg%3E");
+      background-image: none!important;
+    };
+    /* .lineClamp1__4bd52 {
+      font-size: 0;
+      &:before {
+        font-size: medium;
+        content: "Discord";
+        color: white;
+      }
+    } */
+  }
+}
+
+/* Restore User Area */
+.visual-refresh section.panels_c48ade {
+  margin-left: var(--custom-guild-list-width);
+  width: calc(100% - var(--space-xs)*2 - var(--custom-guild-list-width)) !important;
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+/* optionally hide the bar at bottom of server list */
+.sidebar_c48ade:after {
+  display: none;
+}
+
 }
