@@ -551,4 +551,25 @@ nav.guilds_c48ade {
   display: none;
 }
 
+.userTag__63ed3:not(:has(.userTagDiscriminator__63ed3), .pronounsText__63ed3)::before {
+    content: "@";
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.visual-refresh section.panels_c48ade {
+  margin-left: var(--custom-guild-list-width);
+  width: calc(100% - var(--space-xs)*2 - var(--custom-guild-list-width)) !important;
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+/* optionally hide the bar at bottom of server list */
+.sidebar_c48ade:after {
+  display: none;
+}
+
 }
