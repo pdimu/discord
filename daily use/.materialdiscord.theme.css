@@ -171,7 +171,7 @@
 	--reply-hue: 190;
 	--reply-saturation: 46%;
 	--reply-lightness: 23%;
-	--reply-opacity: 1; / *
+	--reply-opacity: 1;
 }
 	/* adds square when hovering above server */
 	.selected_f90abb {
