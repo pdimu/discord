@@ -6,8 +6,7 @@
  */
 
 .header_f37cb1 {
-    height: fit-content;
-    /* max-height: 52px; */
+    height: fill;
 }
 
 .headerContent_f37cb1 {
@@ -48,6 +47,7 @@
         align-self: start;
     }
 }
+
 .name__29444 {
         order: 1;
     }
