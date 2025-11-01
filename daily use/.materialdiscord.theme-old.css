@@ -121,14 +121,14 @@
 
 	/* ALERT HSL AND TEXT COLOR SETTINGS */
 	--alert-hue: 0;
-    	--alert-saturation: 85%;
-    	--alert-lightness: 61%;
+    --alert-saturation: 85%;
+    --alert-lightness: 61%;
 	--alert-text-color: hsl(0,0%,100%); /* DOES NOTHING WITH MATERIAL YOU ENABLED */
 
 	/* WARNING HSL AND TEXT COLOR SETTINGS*/
 	--warning-hue: 131;
-        --warning-saturation: 26%;
-        --warning-lightness: 51%;
+    --warning-saturation: 26%;
+    --warning-lightness: 51%;
 	--warning-text-color: hsl(0,0%,100%); /* DOES NOTHING WITH MATERIAL YOU ENABLED */
 
 	/* MESSAGE SETTINGS */
