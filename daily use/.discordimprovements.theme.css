@@ -6,48 +6,37 @@
  */
 
 .header_f37cb1 {
-    height: fill;
+    height: fit-content;
 }
 
 .headerContent_f37cb1 {
-    display: flex;
-    justify-content: start;
-    align-content: end;
-    align-items: end;
-    gap: 16px;
-
-    .name_f37cb1 {
-        font-size: 32px;
-        order: 1;
-        margin-right: 8px;
-        flex: auto;
-        display: inline-flex;
-        width: fill-content;
-        max-width: auto;
-        white-space: wrap;
-        -webkit-line-clamp: auto;
-        align-items: center;
-    }
-
-    .guildIconV2Container__85d16 {
-        display: inline-flex;
-        order: 2;
-        align-self: start;
-
-        >div {
-            scale: 1.5;
-        }
-    }
-
-    .headerChildren_f37cb1 {
-        order: 0;
-        margin-left: auto;
-        display: flex;
-        min-height: 100%;
-        align-self: start;
-    }
+    gap: 24px;
 }
 
-.name__29444 {
-        order: 1;
-    }
+.name_f37cb1 /* header text*/{
+    font-size: 32px;
+    order: 1;
+    align-self: center;
+    white-space: wrap;
+    text-align: left;
+}
+
+.guildIconV2Container__85d16 /* server type icon */ 
+{
+    display: flex;
+    order: 2;
+    align-self: center;
+    scale: 1.5;
+    white-space: wrap;
+}
+
+.headerChildren_f37cb1 /* dropdown */
+{
+    display: flex;
+    align-self: center;
+}
+
+.name__29444 /* channel name*/ 
+{
+    order: 1;
+}
