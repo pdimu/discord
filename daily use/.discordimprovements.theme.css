@@ -7,6 +7,7 @@
 
 .header_f37cb1 {
     height: fit-content;
+    padding: 24px;
 }
 
 .headerContent_f37cb1 {
@@ -39,4 +40,24 @@
 .name__29444 /* channel name*/ 
 {
     order: 1;
+}
+
+.channelTextArea_f75fb0
+{
+    padding: 1px !important;
+}
+
+.channelBottomBarArea_f75fb0
+{
+    height: fit-content;
+}
+
+.channelAppLauncher_e6e74f
+{
+    display: none;
+}
+
+.subtitleContainer_f75fb0
+{
+    padding: 12px;
 }
