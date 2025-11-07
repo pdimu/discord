@@ -173,10 +173,6 @@
 	--reply-lightness: 23%;
 	--reply-opacity: 1;
 }
-	/* adds square when hovering above server */
-	.selected_f90abb {
-    border-radius: 14.5px !important; /* adjust the 14.5px to how much you want it to curve */
-    transition: border-radius 0.5s ease;
 }
 
 .wrapper_f90abb {
