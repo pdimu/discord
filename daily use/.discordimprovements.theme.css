@@ -18,7 +18,7 @@
 
 .name_f37cb1 /* header text*/
 {
-    font-size: 32px;
+    font-size: 28px;
     order: 1;
     align-self: center;
     white-space: wrap;
@@ -34,21 +34,22 @@
     white-space: wrap;
 }
 
-.headerChildren_f37cb1 /* dropdown */
+.headerChildren_f37cb1 /* dropdown - in server name */
 {
     display: flex;
     align-self: center;
     padding-left: 8px;
 }
 
-.name__29444 /* channel name - in channel list*/ 
+.name__29444 /* channel name - in channel list */ 
 {
     order: 1;
+    padding-left: 8px;
 }
 
 .channelTextArea_f75fb0 /* fixes md chatbar padding */
 {
-    padding: 1px !important;
+    padding: 0.1px;
 }
 
 .channelAppLauncher_e6e74f /* hides the app launcher */
@@ -64,7 +65,6 @@
 .title__9293f /* top channel title */
 {
     font-size: 32px;
-    white-space: wrap;
     text-align: left;
     align-self: center;
 }
@@ -87,4 +87,11 @@
 .contents_c19a55 /* container of editing messages */
 {
   width: fit-content;
+}
+
+.topicsPillText__0f481 /* summary container */
+{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    padding: 0;
 }
