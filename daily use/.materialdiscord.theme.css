@@ -47,6 +47,8 @@
           calc(var(--accent-lightness) * var(--lightness-modifier) * 4.4)
       );
 }
+
+/*
 .theme-dark .lookFilled_dd4f85.colorPrimary_dd4f85 {
   --button-background: hsl(from hsl(var(--accent-hsl--material-you)) h calc(s * 0.5) calc(l * 1.5));
   --button-text-color: hsl(from var(--accent-text-color--material-you) h calc(s * 0.5) calc(l * 1.25));
@@ -66,6 +68,7 @@
     mask-image: linear-gradient(to bottom, black 0%,black 50%, transparent 100%);
 
 }
+*/
 
 :root {
 
