@@ -1,0 +1,34 @@
+/**
+ * @name Material You
+ * @version 1.0.1
+ * @description Converts the Material Discord color scheme based on the accent color to resemble that of Material You. Requires Material Discord as the base theme.
+ * @authorId 124276233478471680
+ *
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Material-Discord/css/addons/material-you/Material-Discord_addon-material-you.theme.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css);
+
+:root {
+    --accent-hue: 224;
+    --accent-saturation: 71%;
+    --accent-lightness: 61%;
+    
+    --accent-text-color: #fff;
+}
+
+.theme-dark {
+    --saturation-modifier: 0.31;
+    --lightness-modifier: 0.225;
+    --text-lightness-modifier: 1.0;
+    --ui-darkness-modifier: 1.0;
+}
+
+.theme-light {
+    --saturation-modifier: 0.74;
+    --lightness-modifier: 2.125;
+    --text-lightness-modifier: 1.0;
+}
