@@ -5,16 +5,19 @@
  * @author Dimu
  */
 
-.header_f37cb1 {
+.header_f37cb1
+{
     height: fit-content;
     padding: 24px;
 }
 
-.headerContent_f37cb1 {
-    gap: 24px;
+.guildDropdown_f37cb1
+{
+    height: max-content;
 }
 
-.name_f37cb1 /* header text*/{
+.name_f37cb1 /* header text*/
+{
     font-size: 32px;
     order: 1;
     align-self: center;
@@ -35,33 +38,53 @@
 {
     display: flex;
     align-self: center;
+    padding-left: 8px;
 }
 
-.name__29444 /* channel name*/ 
+.name__29444 /* channel name - in channel list*/ 
 {
     order: 1;
 }
 
-.channelTextArea_f75fb0
+.channelTextArea_f75fb0 /* fixes md chatbar padding */
 {
-    padding: 1px !important;
+    padding: 0.01px !important;
 }
 
-.channelBottomBarArea_f75fb0
-{
-    height: fit-content;
-}
-
-.channelAppLauncher_e6e74f
+.channelAppLauncher_e6e74f /* hides the app launcher */
 {
     display: none;
 }
 
-.subtitleContainer_f75fb0
+.container__9293f /* top channel container */
 {
-    padding: 12px;
+    height: max-content;
 }
 
-.contents_c19a55 {
+.title__9293f /* top channel title */
+{
+    font-size: 32px;
+    white-space: wrap;
+    text-align: left;
+    align-self: center;
+}
+
+.titleWrapper__9293f /* top channel title container */
+{
+    padding: 8px;
+    align-self: center;
+}
+
+.channelIcon__9293f /* top channel icon */
+{
+    display: flex;
+    align-self: center;
+    scale: 1.5;
+    white-space: wrap;
+    padding-left: 4px;
+}
+
+.contents_c19a55 /* container of editing messages */
+{
   width: fit-content;
 }
