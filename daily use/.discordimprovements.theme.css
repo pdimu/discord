@@ -48,7 +48,7 @@
 
 .channelTextArea_f75fb0 /* fixes md chatbar padding */
 {
-    padding: 1px;
+    padding: 1px !important;
 }
 
 .channelAppLauncher_e6e74f /* hides the app launcher */
