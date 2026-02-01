@@ -30,9 +30,9 @@
 }
 
 :root {
-    --accent-hue: 154;
-    --accent-saturation: 76%;
-    --accent-lightness: 78%;
+    --accent-hue: 123;
+    --accent-saturation: 39%;
+    --accent-lightness: 72%;
 	--accent-text-color: hsl(0,0%,100%); /* DOES NOTHING WITH MATERIAL YOU ENABLED */
 	--accent-button-action: hsl(0,0%,100%);
 
