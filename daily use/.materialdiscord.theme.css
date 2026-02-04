@@ -30,6 +30,7 @@
 }
 
 :root {
+    --app-font-roundness: 10;
     --accent-hue: 123;
     --accent-saturation: 39%;
     --accent-lightness: 72%;
