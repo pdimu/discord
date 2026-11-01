@@ -13,16 +13,16 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css);
 
 :root {
-    --accent-hue: 137;
-    --accent-saturation: 100%;
-    --accent-lightness: 63%;
+    --accent-hue: 339;
+    --accent-saturation: 34%;
+    --accent-lightness: 26%;
     
     --accent-text-color: #fff;
 }
 
 .theme-dark {
     --saturation-modifier: 0.31;
-    --lightness-modifier: 0.225;
+    --lightness-modifier: 0.2;
     --text-lightness-modifier: 1.0;
     --ui-darkness-modifier: 1.0;
 }
