@@ -5,18 +5,20 @@
  * @author Dimu
  */
 
+/*
 .header_f37cb1
 {
     height: fit-content;
     padding: 24px;
 }
 
+
 .guildDropdown_f37cb1
 {
     height: max-content;
 }
 
-.name_f37cb1 /* header text*/
+.name_f37cb1 /* header text*//*
 {
     font-size: 28px;
     order: 1;
@@ -25,7 +27,7 @@
     text-align: left;
 }
 
-.guildIconV2Container__85d16 /* server type icon */ 
+.guildIconV2Container__85d16 /* server type icon *//*
 {
     display: flex;
     order: 2;
@@ -34,12 +36,13 @@
     white-space: wrap;
 }
 
-.headerChildren_f37cb1 /* dropdown - in server name */
+.headerChildren_f37cb1 /* dropdown - in server name *//*
 {
     display: flex;
     align-self: center;
     padding-left: 8px;
 }
+*/
 
 .name__29444 /* channel name - in channel list */ 
 {
@@ -57,25 +60,26 @@
     display: none;
 }
 
-.container__9293f /* top channel container */
+/*
+.container__9293f /* top channel container *//*
 {
     height: max-content;
 }
 
-.title__9293f /* top channel title */
+.title__9293f /* top channel title *//*
 {
     font-size: 32px;
     text-align: left;
     align-self: center;
 }
 
-.titleWrapper__9293f /* top channel title container */
+.titleWrapper__9293f /* top channel title container *//*
 {
     padding: 8px;
     align-self: center;
 }
 
-.channelIcon__9293f /* top channel icon */
+.channelIcon__9293f /* top channel icon *//*
 {
     display: flex;
     align-self: center;
@@ -83,6 +87,7 @@
     white-space: wrap;
     padding-left: 4px;
 }
+*/
 
 .contents_c19a55 /* container of editing messages */
 {
