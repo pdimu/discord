@@ -1,0 +1,147 @@
+{
+  "name": "HighRose",
+  "description": "pathetic and dark, but still pink",
+  "authors": [
+    {
+      "name": "Dimu",
+      "id": "1275796154717573122"
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": [
+      "#16070c"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#16070c"
+    ],
+    "CHAT_BACKGROUND": [
+      "#16070c"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#221117"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#221117"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#341e25"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#341e25"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#41222e"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#511933"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#341e25"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#511933"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "#51193380"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#341e2566"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#511933"
+    ],
+    "BACKGROUND_MENTIONED": [
+      "#c02a5f26"
+    ],
+    "BACKGROUND_MENTIONED_HOVER": [
+      "#c02a5f40"
+    ],
+    "TEXT_NORMAL": [
+      "#f2e6e8"
+    ],
+    "TEXT_MUTED": [
+      "#a88992"
+    ],
+    "TEXT_LINK": [
+      "#e65085"
+    ],
+    "TEXT_POSITIVE": [
+      "#4fd48b"
+    ],
+    "TEXT_WARNING": [
+      "#f7a452"
+    ],
+    "TEXT_DANGER": [
+      "#f24b6e"
+    ],
+    "TEXT_BRAND": [
+      "#c02a5f"
+    ],
+    "HEADER_PRIMARY": [
+      "#ffffff"
+    ],
+    "HEADER_SECONDARY": [
+      "#d4bcc2"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#d4bcc2"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#f2e6e8"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#ffffff"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#6b4e56"
+    ],
+    "INPUT_BACKGROUND": [
+      "#341e25"
+    ],
+    "SEARCH_BAR_BACKGROUND": [
+      "#322629"
+    ],
+    "CARD_PRIMARY_BG": [
+      "#221117"
+    ],
+    "CARD_SECONDARY_BG": [
+      "#341e25"
+    ],
+    "CHANNEL_ICON": [
+      "#d4bcc2"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#d4bcc2"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "#51193380"
+    ],
+    "SCROLLBAR_AUTO_THUMB": [
+      "#51193380"
+    ]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#f2e6e8",
+    "PRIMARY_200": "#d4bcc2",
+    "PRIMARY_300": "#a88992",
+    "PRIMARY_400": "#6b4e56",
+    "PRIMARY_500": "#41222e",
+    "PRIMARY_600": "#341e25",
+    "PRIMARY_630": "#221117",
+    "PRIMARY_660": "#1c0e13",
+    "PRIMARY_700": "#16070c",
+    "PRIMARY_800": "#110509",
+    "PRIMARY_900": "#0c0306",
+    "BRAND_260": "#f89bbd",
+    "BRAND_360": "#e65085",
+    "BRAND_500": "#c02a5f",
+    "BRAND_560": "#a62151",
+    "BRAND_600": "#8a1841",
+    "PLUM_17": "#16070c",
+    "PLUM_18": "#221117",
+    "PLUM_19": "#341e25",
+    "PLUM_20": "#41222e",
+    "PLUM_22": "#511933"
+  }
+}
