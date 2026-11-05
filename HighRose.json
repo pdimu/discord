@@ -43,16 +43,7 @@
       "#1E0F13"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#0A0305"
-    ],
-    "BG_BASE_PRIMARY": [
-      "#1E0F13"
-    ],
-    "BG_BASE_SECONDARY": [
-      "#0A0305"
-    ],
-    "BG_BASE_TERTIARY": [
-      "#0A0305"
+      "#28161B"
     ],
     "GUILD_ICON_INACTIVE_BG": [
       "#241318"
@@ -218,7 +209,7 @@
     "PLUM_19": "#1E0F13",
     "PLUM_20": "#1E0F13",
     "PLUM_22": "#14080B",
-    "PLUM_23": "#28161B",
+    "PLUM_23": "#0A0305",
     "PLUM_24": "#0A0305"
   }
 }
