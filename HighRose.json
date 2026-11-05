@@ -85,10 +85,10 @@
       "#361927"
     ],
     "BACKGROUND_MENTIONED": [
-      "#c02a5f22"
+      "#f0bccf22"
     ],
     "BACKGROUND_MENTIONED_HOVER": [
-      "#c02a5f36"
+      "#f0bccf36"
     ],
     "SCROLLBAR_THIN_THUMB": [
       "#361927"
@@ -120,6 +120,21 @@
     "BG_BACKDROP": [
       "#000000b2"
     ],
+    "BUTTON_PRIMARY_BACKGROUND": [
+      "#f0bccf"
+    ],
+    "BUTTON_PRIMARY_TEXT": [
+      "#160a10"
+    ],
+    "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
+      "#f0bccf"
+    ],
+    "REDESIGN_BUTTON_PRIMARY_TEXT": [
+      "#160a10"
+    ],
+    "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": [
+      "#e49eb8"
+    ],
     "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
       "#25121b"
     ],
@@ -130,7 +145,7 @@
       "#25121b"
     ],
     "REDESIGN_INPUT_CONTROL_SELECTED": [
-      "#361927"
+      "#f0bccf"
     ],
     "CARD_PRIMARY_BG": [
       "#2d1520"
@@ -145,10 +160,10 @@
       "#231119"
     ],
     "TEXT_LINK": [
-      "#e65085"
+      "#f0bccf"
     ],
     "TEXT_BRAND": [
-      "#c02a5f"
+      "#f0bccf"
     ],
     "TEXT_DANGER": [
       "#f24b6e"
@@ -174,11 +189,11 @@
     "PRIMARY_800": "#160a10",
     "PRIMARY_900": "#12070c",
     "BLACK_500": "#000000b2",
-    "BRAND_260": "#f89bbd",
-    "BRAND_360": "#e65085",
-    "BRAND_500": "#c02a5f",
-    "BRAND_560": "#a62151",
-    "BRAND_600": "#8a1841",
+    "BRAND_260": "#faebf1",
+    "BRAND_360": "#f7d8e3",
+    "BRAND_500": "#f0bccf",
+    "BRAND_560": "#e49eb8",
+    "BRAND_600": "#d47d9f",
     "PLUM_13": "#25121b",
     "PLUM_14": "#25121b",
     "PLUM_15": "#231119",
