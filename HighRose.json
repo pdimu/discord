@@ -58,7 +58,7 @@
       "#28161B"
     ],
     "BACKGROUND_TERTIARY": [
-      "#0A0305"
+      "#11070A"
     ],
     "BACKGROUND_ACCENT": [
       "#3D262C"
@@ -191,9 +191,9 @@
     "PRIMARY_600": "#14080B",
     "PRIMARY_630": "#1E0F13",
     "PRIMARY_660": "#1E0F13",
-    "PRIMARY_700": "#0A0305",
-    "PRIMARY_800": "#0A0305",
-    "PRIMARY_900": "#0A0305",
+    "PRIMARY_700": "#11070A",
+    "PRIMARY_800": "#11070A",
+    "PRIMARY_900": "#11070A",
     "BLACK_500": "#000000b2",
     "BRAND_260": "#FFD9E0",
     "BRAND_360": "#94445C",
@@ -209,7 +209,7 @@
     "PLUM_19": "#1E0F13",
     "PLUM_20": "#1E0F13",
     "PLUM_22": "#14080B",
-    "PLUM_23": "#0A0305",
-    "PLUM_24": "#0A0305"
+    "PLUM_23": "#11070A",
+    "PLUM_24": "#11070A"
   }
 }
