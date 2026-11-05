@@ -185,6 +185,27 @@
     ],
     "REDESIGN_CHANNEL_NAME_MUTED_TEXT": [
       "#87787B"
+    ],
+    "TABLEROW_BACKGROUND_DEFAULT": [
+      "#28161B"
+    ],
+    "TABLEROW_BACKGROUND_PRESSED": [
+      "#321E23"
+    ],
+    "CARD_SECONDARY_BACKGROUND_DEFAULT": [
+      "#28161B"
+    ],
+    "CARD_SECONDARY_BACKGROUND_ACTIVE": [
+      "#321E23"
+    ],
+    "CARD_PRIMARY_PRESSED_BG": [
+      "#321E23"
+    ],
+    "CARD_SECONDARY_PRESSED_BG": [
+      "#321E23"
+    ],
+    "CARD_BORDER_DEFAULT": [
+      "#3D262C"
     ]
   },
   "rawColors": {
