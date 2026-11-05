@@ -1,0 +1,194 @@
+{
+  "name": "Discord Dark (Base)",
+  "description": "Stock Discord Dark theme template for customizing colors",
+  "authors": [
+    {
+      "name": "Dimu",
+      "id": "1275796154717573122"
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "HEADER_PRIMARY": [
+      "#f2f3f5"
+    ],
+    "HEADER_SECONDARY": [
+      "#b5bac1"
+    ],
+    "TEXT_NORMAL": [
+      "#dbdee1"
+    ],
+    "TEXT_MUTED": [
+      "#949ba4"
+    ],
+    "MOBILE_TEXT_HEADING_PRIMARY": [
+      "#f2f3f5"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#949ba4"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#dbdee1"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#ffffff"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#4e5058"
+    ],
+    "BACKGROUND_PRIMARY": [
+      "#313338"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#2b2d31"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#232428"
+    ],
+    "BACKGROUND_SURFACE_HIGH": [
+      "#2b2d31"
+    ],
+    "CARD_BACKGROUND_DEFAULT": [
+      "#2b2d31"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#1e1f22"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#4e5058"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#232428"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#313338"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#2b2d31"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#232428"
+    ],
+    "BACKGROUND_MESSAGE_HOVER": [
+      "#02020214"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#4e505829"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "#4e505833"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#4e505847"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#4e5058"
+    ],
+    "BACKGROUND_MENTIONED": [
+      "#5865f21f"
+    ],
+    "BACKGROUND_MENTIONED_HOVER": [
+      "#5865f22e"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "#1a1b1e"
+    ],
+    "SCROLLBAR_THIN_TRACK": [
+      "transparent"
+    ],
+    "SCROLLBAR_AUTO_THUMB": [
+      "#1a1b1e"
+    ],
+    "SCROLLBAR_AUTO_TRACK": [
+      "#2b2d31"
+    ],
+    "CHANNELTEXTAREA_BACKGROUND": [
+      "#383a40"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#949ba4"
+    ],
+    "CHANNEL_ICON": [
+      "#80848e"
+    ],
+    "CHAT_BACKGROUND": [
+      "#313338"
+    ],
+    "KEYBOARD": [
+      "#2b2d31"
+    ],
+    "BG_BACKDROP": [
+      "#000000b2"
+    ],
+    "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+      "#4e5058"
+    ],
+    "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
+      "#2b2d31"
+    ],
+    "REDESIGN_CHAT_INPUT_BACKGROUND": [
+      "#383a40"
+    ],
+    "REDESIGN_INPUT_CONTROL_SELECTED": [
+      "#5865f2"
+    ],
+    "CARD_PRIMARY_BG": [
+      "#2b2d31"
+    ],
+    "CARD_SECONDARY_BG": [
+      "#1e1f22"
+    ],
+    "INPUT_BACKGROUND": [
+      "#1e1f22"
+    ],
+    "SEARCH_BAR_BACKGROUND": [
+      "#1e1f22"
+    ],
+    "TEXT_LINK": [
+      "#00a8fc"
+    ],
+    "TEXT_BRAND": [
+      "#5865f2"
+    ],
+    "TEXT_DANGER": [
+      "#fa777c"
+    ],
+    "TEXT_POSITIVE": [
+      "#57f287"
+    ],
+    "TEXT_WARNING": [
+      "#fee75c"
+    ]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#f2f3f5",
+    "PRIMARY_200": "#ebedef",
+    "PRIMARY_300": "#dbdee1",
+    "PRIMARY_360": "#c4b7bd",
+    "PRIMARY_400": "#949ba4",
+    "PRIMARY_500": "#4e5058",
+    "PRIMARY_600": "#313338",
+    "PRIMARY_630": "#2b2d31",
+    "PRIMARY_660": "#232428",
+    "PRIMARY_700": "#1e1f22",
+    "PRIMARY_800": "#111214",
+    "PRIMARY_900": "#0c0d0e",
+    "BLACK_500": "#000000b2",
+    "BRAND_260": "#c5c9ff",
+    "BRAND_360": "#808bf5",
+    "BRAND_500": "#5865f2",
+    "BRAND_560": "#4752c4",
+    "BRAND_600": "#3c45a5",
+    "PLUM_13": "#383a40",
+    "PLUM_14": "#383a40",
+    "PLUM_15": "#2b2d31",
+    "PLUM_16": "#232428",
+    "PLUM_17": "#313338",
+    "PLUM_18": "#2b2d31",
+    "PLUM_19": "#2b2d31",
+    "PLUM_20": "#2b2d31",
+    "PLUM_22": "#1e1f22",
+    "PLUM_23": "#1e1f22",
+    "PLUM_24": "#111214"
+  }
+}
