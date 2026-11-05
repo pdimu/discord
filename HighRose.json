@@ -43,7 +43,22 @@
       "#1E0F13"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#28161B"
+      "#0A0305"
+    ],
+    "BG_BASE_PRIMARY": [
+      "#1E0F13"
+    ],
+    "BG_BASE_SECONDARY": [
+      "#0A0305"
+    ],
+    "BG_BASE_TERTIARY": [
+      "#0A0305"
+    ],
+    "GUILD_ICON_INACTIVE_BG": [
+      "#241318"
+    ],
+    "GUILD_ICON_INACTIVE_NESTED_BG": [
+      "#241318"
     ],
     "BACKGROUND_SURFACE_HIGH": [
       "#28161B"
