@@ -106,10 +106,10 @@
       "#261D1F"
     ],
     "CHANNELS_DEFAULT": [
-      "#9E8C8F"
+      "#78686a"
     ],
     "CHANNEL_ICON": [
-      "#D6C2C4"
+      "#78686a"
     ],
     "CHAT_BACKGROUND": [
       "#140C0E"
@@ -178,7 +178,7 @@
   "rawColors": {
     "PRIMARY_100": "#EFDEE0",
     "PRIMARY_200": "#D6C2C4",
-    "PRIMARY_300": "#9E8C8F",
+    "PRIMARY_300": "#78686a",
     "PRIMARY_360": "#7E7576",
     "PRIMARY_400": "#524346",
     "PRIMARY_500": "#3C3234",
