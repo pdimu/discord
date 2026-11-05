@@ -34,7 +34,7 @@
       "#FFFFFF"
     ],
     "INTERACTIVE_MUTED": [
-      "#413638"
+      "#524447"
     ],
     "BACKGROUND_PRIMARY": [
       "#14080B"
@@ -186,7 +186,7 @@
     "PRIMARY_200": "#D6C2C5",
     "PRIMARY_300": "#87787B",
     "PRIMARY_360": "#8D7076",
-    "PRIMARY_400": "#413638",
+    "PRIMARY_400": "#524447",
     "PRIMARY_500": "#3D262C",
     "PRIMARY_600": "#14080B",
     "PRIMARY_630": "#1E0F13",
