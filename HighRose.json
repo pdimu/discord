@@ -316,7 +316,7 @@
       "#FFDCBE"
     ],
     "CONTROL_EXPRESSIVE_BACKGROUND_DEFAULT": [
-      "#713345"
+      "#28161B"
     ],
     "CONTROL_EXPRESSIVE_TEXT_DEFAULT": [
       "#FFD9E0"
@@ -338,6 +338,21 @@
     ],
     "INTERACTIVE_ICON_ACTIVE": [
       "#551D2E"
+    ],
+    "WHITE": [
+      "#551D2E"
+    ],
+    "CONTROL_OVERLAY_PRIMARY_BACKGROUND_DEFAULT": [
+      "#28161B"
+    ],
+    "CONTROL_OVERLAY_PRIMARY_BACKGROUND_ACTIVE": [
+      "#321E23"
+    ],
+    "CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT": [
+      "#FFD9E0"
+    ],
+    "CONTROL_OVERLAY_PRIMARY_BORDER_DEFAULT": [
+      "#28161B"
     ]
   },
   "rawColors": {
