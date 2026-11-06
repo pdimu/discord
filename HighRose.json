@@ -453,6 +453,9 @@
     ],
     "BADGE_BRAND_TEXT": [
       "#551D2E"
+    ],
+    "BADGE_TEXT_BRAND": [
+      "#551D2E"
     ]
   },
   "rawColors": {
