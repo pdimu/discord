@@ -145,7 +145,7 @@
       "#594046"
     ],
     "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
-      "#5E4123"
+      "#5E412333"
     ],
     "REDESIGN_CHAT_INPUT_BACKGROUND": [
       "#28161B"
@@ -307,7 +307,7 @@
       "#FFD9E0"
     ],
     "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": [
-      "#513519"
+      "#5E412359"
     ],
     "REDESIGN_BUTTON_TERTIARY_TEXT": [
       "#FFDCBE"
@@ -316,7 +316,7 @@
       "#FFDCBE"
     ],
     "CONTROL_EXPRESSIVE_BACKGROUND_DEFAULT": [
-      "#28161B"
+      "#4E0012"
     ],
     "CONTROL_EXPRESSIVE_TEXT_DEFAULT": [
       "#FFD9E0"
@@ -349,7 +349,8 @@
       "#321E23"
     ],
     "CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT": [
-      "#FFD9E0"
+      "#551D2E",
+      "#551D2E"
     ],
     "CONTROL_OVERLAY_PRIMARY_BORDER_DEFAULT": [
       "#28161B"
