@@ -368,10 +368,10 @@
       "#551D2E"
     ],
     "MOBILE_CHAT_NEW_MESSAGE_TEXT": [
-      "#551D2E"
+      "#FFB4AB"
     ],
     "MOBILE_CHAT_NEW_MESSAGE_BORDER": [
-      "#FFB1C3"
+      "#FFB4AB"
     ],
     "BUTTON_SECONDARY_BACKGROUND": [
       "#594046"
@@ -441,6 +441,18 @@
     ],
     "WHITE": [
       "#551D2E"
+    ],
+    "BACKGROUND_BRAND": [
+      "#FFB1C3"
+    ],
+    "BADGE_BACKGROUND_BRAND": [
+      "#FFB1C3"
+    ],
+    "BADGE_BRAND_BG": [
+      "#FFB1C3"
+    ],
+    "BADGE_BRAND_TEXT": [
+      "#551D2E"
     ]
   },
   "rawColors": {
@@ -475,6 +487,16 @@
     "PLUM_24": "#11070A",
     "RED_345": "#FFB4AB",
     "RED_400": "#FFB4AB",
-    "RED_500": "#FFB4AB"
+    "RED_500": "#FFB4AB",
+    "BLURPLE_50": "#FFB1C3",
+    "BLURPLE_52": "#D0758E",
+    "BLURPLE_60": "#B25C74",
+    "BLURPLE_30": "#FFD9E0",
+    "BLURPLE_20": "#FFECEF",
+    "NEUTRAL_27": "#594046",
+    "NEUTRAL_28": "#594046",
+    "NEUTRAL_29": "#594046",
+    "NEUTRAL_30": "#594046",
+    "NEUTRAL_31": "#594046"
   }
 }
