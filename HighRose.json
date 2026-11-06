@@ -438,6 +438,9 @@
     ],
     "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
       "#594046"
+    ],
+    "WHITE": [
+      "#551D2E"
     ]
   },
   "rawColors": {
