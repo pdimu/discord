@@ -271,13 +271,13 @@
       "#FFB4AB"
     ],
     "CONTROL_CRITICAL_PRIMARY_BACKGROUND_ACTIVE": [
-      "#93000A"
+      "#FFDAD6"
     ],
     "CONTROL_CRITICAL_PRIMARY_BORDER_DEFAULT": [
       "#FFB4AB"
     ],
     "CONTROL_CRITICAL_PRIMARY_BORDER_ACTIVE": [
-      "#93000A"
+      "#FFDAD6"
     ],
     "CONTROL_CRITICAL_PRIMARY_TEXT_DEFAULT": [
       "#690005"
@@ -495,6 +495,33 @@
     ],
     "REACTION_TEXT_HOVER": [
       "#EFDEE1"
+    ],
+    "BUTTON_DANGER_BACKGROUND": [
+      "#FFB4AB"
+    ],
+    "BUTTON_DANGER_TEXT": [
+      "#690005"
+    ],
+    "BUTTON_DANGER_BACKGROUND_ACTIVE": [
+      "#FFDAD6"
+    ],
+    "BUTTON_DANGER_BACKGROUND_HOVER": [
+      "#FFDAD6"
+    ],
+    "REDESIGN_BUTTON_DANGER_BACKGROUND": [
+      "#FFB4AB"
+    ],
+    "REDESIGN_BUTTON_DANGER_TEXT": [
+      "#690005"
+    ],
+    "REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND": [
+      "#FFB4AB"
+    ],
+    "REDESIGN_BUTTON_DESTRUCTIVE_TEXT": [
+      "#690005"
+    ],
+    "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": [
+      "#FFDAD6"
     ]
   },
   "rawColors": {
@@ -545,6 +572,13 @@
     "NEUTRAL_31": "#E3BDC4",
     "NEUTRAL_35": "#E3BDC4",
     "NEUTRAL_37": "#E3BDC4",
-    "NEUTRAL_79": "#28161B"
+    "NEUTRAL_79": "#28161B",
+    "RED_360": "#FFB4AB",
+    "RED_430": "#FFB4AB",
+    "RED_460": "#FFB4AB",
+    "RED_530": "#FFB4AB",
+    "RED_560": "#E28C84",
+    "RED_600": "#BA1A1A",
+    "RED_NEW_50": "#FFB4AB"
   }
 }
