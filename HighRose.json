@@ -471,6 +471,30 @@
     ],
     "THREAD_CHANNEL_SPINE": [
       "#524447"
+    ],
+    "REACTION_BACKGROUND_DEFAULT": [
+      "#594046"
+    ],
+    "REACTION_BORDER_DEFAULT": [
+      "#594046"
+    ],
+    "REACTION_TEXT_DEFAULT": [
+      "#E3BDC4"
+    ],
+    "REACTION_BACKGROUND_REACTED_DEFAULT": [
+      "#FFB1C3"
+    ],
+    "REACTION_BORDER_REACTED_DEFAULT": [
+      "#FFB1C3"
+    ],
+    "REACTION_TEXT_REACTED_DEFAULT": [
+      "#551D2E"
+    ],
+    "REACTION_TEXT_ACTIVE": [
+      "#E3BDC4"
+    ],
+    "REACTION_TEXT_HOVER": [
+      "#EFDEE1"
     ]
   },
   "rawColors": {
