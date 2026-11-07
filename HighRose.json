@@ -496,10 +496,15 @@
     "BLURPLE_60": "#B25C74",
     "BLURPLE_30": "#FFD9E0",
     "BLURPLE_20": "#FFECEF",
-    "NEUTRAL_27": "#594046",
-    "NEUTRAL_28": "#594046",
-    "NEUTRAL_29": "#594046",
-    "NEUTRAL_30": "#594046",
-    "NEUTRAL_31": "#594046"
+    "NEUTRAL_16": "#FFD9E0",
+    "NEUTRAL_20": "#FFD9E0",
+    "NEUTRAL_23": "#FFD9E0",
+    "NEUTRAL_27": "#FFD9E0",
+    "NEUTRAL_28": "#FFD9E0",
+    "NEUTRAL_29": "#FFD9E0",
+    "NEUTRAL_30": "#FFD9E0",
+    "NEUTRAL_31": "#FFD9E0",
+    "NEUTRAL_35": "#FFD9E0",
+    "NEUTRAL_37": "#FFD9E0"
   }
 }
