@@ -522,6 +522,33 @@
     ],
     "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": [
       "#FFDAD6"
+    ],
+    "TEXT_STRONG": [
+      "#EFDEE1"
+    ],
+    "TEXT_SUBTLE": [
+      "#E3BDC4"
+    ],
+    "TEXT_DEFAULT": [
+      "#EFDEE1"
+    ],
+    "APP_MESSAGE_EMBED_SECONDARY_TEXT": [
+      "#E3BDC4"
+    ],
+    "BADGE_BACKGROUND_DEFAULT": [
+      "#594046"
+    ],
+    "BADGE_TEXT_DEFAULT": [
+      "#E3BDC4"
+    ],
+    "BORDER_SUBTLE": [
+      "#594046"
+    ],
+    "BORDER_STRONG": [
+      "#87787B"
+    ],
+    "ICON_SUBTLE": [
+      "#D6C2C5"
     ]
   },
   "rawColors": {
@@ -579,6 +606,16 @@
     "RED_530": "#FFB4AB",
     "RED_560": "#E28C84",
     "RED_600": "#BA1A1A",
-    "RED_NEW_50": "#FFB4AB"
+    "RED_NEW_50": "#FFB4AB",
+    "PRIMARY_330": "#E3BDC4",
+    "BRAND_400": "#FFB1C3",
+    "BRAND_430": "#FFB1C3",
+    "BRAND_460": "#FFB1C3",
+    "BRAND_530": "#FFB1C3",
+    "BLURPLE_40": "#FFB1C3",
+    "BLURPLE_45": "#FFB1C3",
+    "BLURPLE_48": "#FFB1C3",
+    "BLURPLE_49": "#FFB1C3",
+    "ILLO_BLUE_40": "#FFB1C3"
   }
 }
