@@ -347,7 +347,7 @@
       "#FFDCBE"
     ],
     "TEXT_OVERLAY_LIGHT": [
-      "#E3BDC4"
+      "#551D2E"
     ],
     "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": [
       "#594046"
@@ -356,7 +356,7 @@
       "#FFD9E0"
     ],
     "ICON_OVERLAY_LIGHT": [
-      "#E3BDC4"
+      "#551D2E"
     ],
     "CONTROL_BRAND_FOREGROUND": [
       "#551D2E"
@@ -439,6 +439,9 @@
     "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
       "#594046"
     ],
+    "WHITE": [
+      "#551D2E"
+    ],
     "BACKGROUND_BRAND": [
       "#FFB1C3"
     ],
@@ -457,9 +460,6 @@
     "MOBILE_SEGMENTED_CONTROL_BACKGROUND": [
       "#594046"
     ],
-    "TAB_BAR_BACKGROUND": [
-      "#594046"
-    ],
     "MOBILE_SEGMENTED_CONTROL_INDICATOR_BACKGROUND": [
       "#E3BDC4"
     ],
@@ -469,17 +469,8 @@
     "TAB_LABEL_TEXT_FOCUSED": [
       "#551D2E"
     ],
-    "EMBED_BACKGROUND": [
-      "#0E0507"
-    ],
-    "EMBED_BACKGROUND_ALTERNATE": [
-      "#0E0507"
-    ],
-    "MOBILE_EMBED_BACKGROUND_DEFAULT": [
-      "#0E0507"
-    ],
-    "MOBILE_THREAD_EMBED_BACKGROUND": [
-      "#0E0507"
+    "TAB_BAR_BACKGROUND": [
+      "#594046"
     ]
   },
   "rawColors": {
