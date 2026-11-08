@@ -151,7 +151,7 @@
       "#28161B"
     ],
     "REDESIGN_INPUT_CONTROL_SELECTED": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CARD_PRIMARY_BG": [
       "#321E23"
@@ -223,25 +223,25 @@
       "#FFD9E0"
     ],
     "SWITCH_BACKGROUND_SELECTED_DEFAULT": [
-      "#FFB1C3"
+      "#713345"
     ],
     "SWITCH_BORDER_SELECTED_DEFAULT": [
-      "#FFB1C3"
+      "#713345"
     ],
     "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "SWITCH_THUMB_ICON_ACTIVE": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CHECKBOX_BORDER_SELECTED_DEFAULT": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CHECKBOX_ICON_ACTIVE": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
       "#713345"
@@ -347,7 +347,7 @@
       "#FFDCBE"
     ],
     "TEXT_OVERLAY_LIGHT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": [
       "#594046"
@@ -356,7 +356,7 @@
       "#FFD9E0"
     ],
     "ICON_OVERLAY_LIGHT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "CONTROL_BRAND_FOREGROUND": [
       "#FFD9E0"
@@ -530,7 +530,7 @@
     "BRAND_360": "#FFD9E0",
     "BRAND_500": "#713345",
     "BRAND_560": "#551D2E",
-    "BRAND_600": "#B25C74",
+    "BRAND_600": "#3E0119",
     "PLUM_13": "#28161B",
     "PLUM_14": "#321E23",
     "PLUM_15": "#3D262C",
@@ -547,7 +547,7 @@
     "RED_500": "#93000A",
     "BLURPLE_50": "#713345",
     "BLURPLE_52": "#551D2E",
-    "BLURPLE_60": "#B25C74",
+    "BLURPLE_60": "#3E0119",
     "BLURPLE_30": "#FFD9E0",
     "BLURPLE_20": "#FFECEF",
     "NEUTRAL_27": "#594046",
