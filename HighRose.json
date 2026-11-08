@@ -510,6 +510,36 @@
     ],
     "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": [
       "#730006"
+    ],
+    "BADGE_NOTIFICATION_BACKGROUND": [
+      "#93000A"
+    ],
+    "BACKGROUND_FEEDBACK_NOTIFICATION": [
+      "#93000A"
+    ],
+    "ICON_FEEDBACK_NOTIFICATION": [
+      "#FFDAD6"
+    ],
+    "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": [
+      "#93000A"
+    ],
+    "STATUS_DANGER_BACKGROUND": [
+      "#93000A"
+    ],
+    "STATUS_DANGER_TEXT": [
+      "#FFDAD6"
+    ],
+    "MENTION_BACKGROUND": [
+      "#7133454d"
+    ],
+    "MENTION_FOREGROUND": [
+      "#FFD9E0"
+    ],
+    "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": [
+      "#71334533"
+    ],
+    "MESSAGE_MENTIONED_BACKGROUND_HOVER": [
+      "#7133454d"
     ]
   },
   "rawColors": {
@@ -542,8 +572,8 @@
     "PLUM_22": "#14080B",
     "PLUM_23": "#11070A",
     "PLUM_24": "#11070A",
-    "RED_345": "#FFB4AB",
-    "RED_400": "#FFB4AB",
+    "RED_345": "#93000A",
+    "RED_400": "#93000A",
     "RED_500": "#93000A",
     "BLURPLE_50": "#713345",
     "BLURPLE_52": "#551D2E",
