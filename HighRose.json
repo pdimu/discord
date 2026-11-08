@@ -127,19 +127,19 @@
       "#000000b2"
     ],
     "BUTTON_PRIMARY_BACKGROUND": [
-      "#FFB1C3"
+      "#713345"
     ],
     "BUTTON_PRIMARY_TEXT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
-      "#FFB1C3"
+      "#713345"
     ],
     "REDESIGN_BUTTON_PRIMARY_TEXT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": [
-      "#D0758E"
+      "#551D2E"
     ],
     "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
       "#594046"
@@ -208,19 +208,19 @@
       "#3D262C"
     ],
     "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CONTROL_PRIMARY_BACKGROUND_ACTIVE": [
-      "#D0758E"
+      "#551D2E"
     ],
     "CONTROL_PRIMARY_BORDER_DEFAULT": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CONTROL_PRIMARY_BORDER_ACTIVE": [
-      "#D0758E"
+      "#551D2E"
     ],
     "CONTROL_PRIMARY_TEXT_DEFAULT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "SWITCH_BACKGROUND_SELECTED_DEFAULT": [
       "#FFB1C3"
@@ -244,10 +244,10 @@
       "#551D2E"
     ],
     "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
-      "#FFB1C3"
+      "#713345"
     ],
     "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "TEXT_FEEDBACK_CRITICAL": [
       "#FFB4AB"
@@ -268,22 +268,22 @@
       "#93000A"
     ],
     "CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT": [
-      "#FFB4AB"
+      "#93000A"
     ],
     "CONTROL_CRITICAL_PRIMARY_BACKGROUND_ACTIVE": [
-      "#93000A"
+      "#730006"
     ],
     "CONTROL_CRITICAL_PRIMARY_BORDER_DEFAULT": [
-      "#FFB4AB"
-    ],
-    "CONTROL_CRITICAL_PRIMARY_BORDER_ACTIVE": [
       "#93000A"
     ],
+    "CONTROL_CRITICAL_PRIMARY_BORDER_ACTIVE": [
+      "#730006"
+    ],
     "CONTROL_CRITICAL_PRIMARY_TEXT_DEFAULT": [
-      "#690005"
+      "#FFDAD6"
     ],
     "BUTTON_DANGER_BACKGROUND_DISABLED": [
-      "#FFB4AB80"
+      "#93000A80"
     ],
     "CONTROL_SECONDARY_BACKGROUND_DEFAULT": [
       "#594046"
@@ -307,19 +307,19 @@
       "#FFD9E0"
     ],
     "CONTROL_CONNECTED_BACKGROUND_DEFAULT": [
-      "#9CD49F"
+      "#1D5128"
     ],
     "CONTROL_CONNECTED_BACKGROUND_ACTIVE": [
-      "#1D5128"
+      "#13401D"
     ],
     "CONTROL_CONNECTED_BORDER_DEFAULT": [
-      "#9CD49F"
-    ],
-    "CONTROL_CONNECTED_BORDER_ACTIVE": [
       "#1D5128"
     ],
+    "CONTROL_CONNECTED_BORDER_ACTIVE": [
+      "#13401D"
+    ],
     "CONTROL_CONNECTED_TEXT_DEFAULT": [
-      "#003913"
+      "#B8F1BA"
     ],
     "INTERACTIVE_ICON_ACTIVE": [
       "#FFD9E0"
@@ -331,8 +331,8 @@
       "#321E23"
     ],
     "CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT": [
-      "#551D2E",
-      "#551D2E"
+      "#FFD9E0",
+      "#FFD9E0"
     ],
     "CONTROL_OVERLAY_PRIMARY_BORDER_DEFAULT": [
       "#28161B"
@@ -359,13 +359,13 @@
       "#551D2E"
     ],
     "CONTROL_BRAND_FOREGROUND": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "CONTROL_BRAND_FOREGROUND_NEW": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "MOBILE_UNREADBAR_TEXT_DEFAULT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "MOBILE_CHAT_NEW_MESSAGE_TEXT": [
       "#FFB4AB"
@@ -439,23 +439,20 @@
     "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
       "#594046"
     ],
-    "WHITE": [
-      "#551D2E"
-    ],
     "BACKGROUND_BRAND": [
-      "#FFB1C3"
+      "#713345"
     ],
     "BADGE_BACKGROUND_BRAND": [
-      "#FFB1C3"
+      "#713345"
     ],
     "BADGE_BRAND_BG": [
-      "#FFB1C3"
+      "#713345"
     ],
     "BADGE_BRAND_TEXT": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "BADGE_TEXT_BRAND": [
-      "#551D2E"
+      "#FFD9E0"
     ],
     "MOBILE_SEGMENTED_CONTROL_BACKGROUND": [
       "#594046"
@@ -471,6 +468,48 @@
     ],
     "TAB_BAR_BACKGROUND": [
       "#594046"
+    ],
+    "BUTTON_POSITIVE_BACKGROUND": [
+      "#1D5128"
+    ],
+    "BUTTON_POSITIVE_TEXT": [
+      "#B8F1BA"
+    ],
+    "REDESIGN_BUTTON_POSITIVE_BACKGROUND": [
+      "#1D5128"
+    ],
+    "REDESIGN_BUTTON_POSITIVE_TEXT": [
+      "#B8F1BA"
+    ],
+    "REDESIGN_BUTTON_POSITIVE_PRESSED_BACKGROUND": [
+      "#13401D"
+    ],
+    "BUTTON_DANGER_BACKGROUND": [
+      "#93000A"
+    ],
+    "BUTTON_DANGER_TEXT": [
+      "#FFDAD6"
+    ],
+    "BUTTON_DANGER_BACKGROUND_ACTIVE": [
+      "#730006"
+    ],
+    "BUTTON_DANGER_BACKGROUND_HOVER": [
+      "#730006"
+    ],
+    "REDESIGN_BUTTON_DANGER_BACKGROUND": [
+      "#93000A"
+    ],
+    "REDESIGN_BUTTON_DANGER_TEXT": [
+      "#FFDAD6"
+    ],
+    "REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND": [
+      "#93000A"
+    ],
+    "REDESIGN_BUTTON_DESTRUCTIVE_TEXT": [
+      "#FFDAD6"
+    ],
+    "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": [
+      "#730006"
     ]
   },
   "rawColors": {
@@ -489,8 +528,8 @@
     "BLACK_500": "#000000b2",
     "BRAND_260": "#FFECEF",
     "BRAND_360": "#FFD9E0",
-    "BRAND_500": "#FFB1C3",
-    "BRAND_560": "#D0758E",
+    "BRAND_500": "#713345",
+    "BRAND_560": "#551D2E",
     "BRAND_600": "#B25C74",
     "PLUM_13": "#28161B",
     "PLUM_14": "#321E23",
@@ -505,9 +544,9 @@
     "PLUM_24": "#11070A",
     "RED_345": "#FFB4AB",
     "RED_400": "#FFB4AB",
-    "RED_500": "#FFB4AB",
-    "BLURPLE_50": "#FFB1C3",
-    "BLURPLE_52": "#D0758E",
+    "RED_500": "#93000A",
+    "BLURPLE_50": "#713345",
+    "BLURPLE_52": "#551D2E",
     "BLURPLE_60": "#B25C74",
     "BLURPLE_30": "#FFD9E0",
     "BLURPLE_20": "#FFECEF",
@@ -515,6 +554,7 @@
     "NEUTRAL_28": "#594046",
     "NEUTRAL_29": "#594046",
     "NEUTRAL_30": "#594046",
-    "NEUTRAL_31": "#594046"
+    "NEUTRAL_31": "#594046",
+    "RED_560": "#730006"
   }
 }
